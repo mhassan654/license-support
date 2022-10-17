@@ -1,0 +1,57 @@
+{
+    "name": "mhassan654/license-support",
+    "description": "A few useful reusable support package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "license-support",
+        "support"
+    ],
+    "authors": [
+        {
+            "name": "Muwonge Hassan",
+            "email": "hassansaava@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mhassan654/license-support/issues",
+        "source": "https://github.com/mhassan654/license-support"
+    },
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^7.0.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mhassan654\\LicenseSupport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mhassan654\\LicenseSupport\\LicenseSupportServiceProvider"
+            ],
+            "aliases": {
+                "LicenseSupport": "Mhassan654\\LicenseSupport\\Facades\\licenseSupport"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
