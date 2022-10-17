@@ -1,4 +1,4 @@
-# Ultimate Support
+# Licensing Support
 
 <!-- [![EgoistDeveloper Laravel Support](https://preview.dragon-code.pro/EgoistDeveloper/Ultimate-Support.svg?brand=laravel)](https://github.com/laravel-ready/ultimate-support) -->
 
