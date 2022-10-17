@@ -36,15 +36,14 @@ Contains methods for working with IP addresses.
 - In laravel native way you can use `Request::ip()` method but this method is cover all cases. For example cloudflare, nginx, etc. Also see this stackoverflow [question](https://stackoverflow.com/q/13646690/6940144).
 
 
-[badge_downloads]:      https://img.shields.io/packagist/dt/laravel-ready/license-support.svg?style=flat-square
+[badge_downloads]:      https://img.shields.io/packagist/dt/mhassan654/license-support.svg?style=flat-square
 
-[badge_license]:        https://img.shields.io/packagist/l/laravel-ready/license-support.svg?style=flat-square
+[badge_license]:        https://img.shields.io/packagist/l/mhassan654/license-support.svg?style=flat-square
 
-[badge_stable]:         https://img.shields.io/github/v/release/laravel-ready/license-support?label=stable&style=flat-square
+[badge_stable]:         https://img.shields.io/github/v/release/mhassan654/license-support?label=stable&style=flat-square
 
 [badge_unstable]:       https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
 
 [link_license]:         LICENSE
 
-[link_packagist]:       https://packagist.org/packages/laravel-ready/license-support
-
+[link_packagist]:       https://packagist.org/packages/mhassan654/license-support
