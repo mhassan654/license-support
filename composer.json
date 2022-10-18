@@ -23,11 +23,6 @@
         "php": "^8.0.2",
         "illuminate/support": "^8.0"
     },
-    "require-dev": {
-        "mockery/mockery": "^1.4",
-        "orchestra/testbench": "^7.0.0",
-        "phpunit/phpunit": "^9.5"
-    },
     "autoload": {
         "psr-4": {
             "Mhassan654\\LicenseSupport\\": "src/"
